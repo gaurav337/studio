@@ -1,5 +1,5 @@
 
-# Cosmic Architect: A Personal Portfolio
+# Nextn Portfolio
 
 This is a Next.js-powered personal portfolio website, designed to showcase projects, skills, and professional experience with a sleek, modern, and cosmic-themed interface. It's built with the latest web technologies to be fast, responsive, and visually engaging.
 
@@ -49,8 +49,8 @@ You will need to have the following software installed on your machine:
 1.  **Clone the Repository**
 
     ```bash
-    git clone <your-repository-url>
-    cd <repository-folder>
+    git clone https://github.com/gaurav337/studio.git
+    cd studio
     ```
 
 2.  **Install Dependencies**
@@ -65,13 +65,7 @@ You will need to have the following software installed on your machine:
 
 3.  **Configure Environment Variables**
 
-    Create a `.env` file in the root of your project by copying the example file:
-
-    ```bash
-    cp .env.example .env
-    ```
-
-    You will need to populate this file with your Firebase project configuration to connect to the database.
+    Create a `.env` file in the root of your project and add your Firebase project configuration to connect to the database.
 
 4.  **Run the Development Server**
 
@@ -83,7 +77,7 @@ You will need to have the following software installed on your machine:
     yarn dev
     ```
 
-    The application should now be running at [http://localhost:3000](http://localhost:3000).
+    The application should now be running at [http://localhost:9002](http://localhost:9002).
 
 ## Project Structure
 
